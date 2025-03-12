@@ -1,0 +1,213 @@
+import {
+  Accordion,
+  AccordionContent,
+  AccordionItem,
+  AccordionTrigger,
+} from "@/components/ui/accordion";
+import { Alert, AlertDescription, AlertTitle } from "@/components/ui/alert";
+import { Avatar, AvatarFallback, AvatarImage } from "@/components/ui/avatar";
+import { Badge } from "@/components/ui/badge";
+import { Button } from "@/components/ui/button";
+import { Calendar } from "@/components/ui/calendar";
+import {
+  Card,
+  CardContent,
+  CardDescription,
+  CardFooter,
+  CardHeader,
+  CardTitle,
+} from "@/components/ui/card";
+import { Checkbox } from "@/components/ui/checkbox";
+import {
+  Command,
+  CommandEmpty,
+  CommandGroup,
+  CommandInput,
+  CommandItem,
+  CommandList,
+  CommandLoading,
+  CommandSeparator,
+} from "@/components/ui/command";
+import {
+  Dialog,
+  DialogClose,
+  DialogContent,
+  DialogDescription,
+  DialogFooter,
+  DialogHeader,
+  DialogOverlay,
+  DialogPortal,
+  DialogTitle,
+  DialogTrigger,
+} from "@/components/ui/dialog";
+import {
+  DropdownMenu,
+  DropdownMenuContent,
+  DropdownMenuItem,
+  DropdownMenuLabel,
+  DropdownMenuSeparator,
+  DropdownMenuTrigger,
+} from "@/components/ui/dropdown-menu";
+import { Input } from "@/components/ui/input";
+import { Label } from "@/components/ui/label";
+import {
+  Popover,
+  PopoverAnchor,
+  PopoverContent,
+  PopoverTrigger,
+} from "@/components/ui/popover";
+import { ScrollArea, ScrollBar } from "@/components/ui/scroll-area";
+import { Skeleton } from "@/components/ui/skeleton";
+import {
+  Table,
+  TableBody,
+  TableCaption,
+  TableCell,
+  TableFooter,
+  TableHead,
+  TableHeader,
+  TableRow,
+} from "@/components/ui/table";
+import { Textarea } from "@/components/ui/textarea";
+import {
+  Tooltip,
+  TooltipContent,
+  TooltipProvider,
+  TooltipTrigger,
+} from "@/components/ui/tooltip";
+import { cn } from "@/lib/utils";
+import {
+  makeAutocomponents,
+  ShadcnElements,
+} from "@gadgetinc/react/auto/shadcn";
+import { toast } from "sonner";
+
+const elements: ShadcnElements = {
+  Accordion,
+  AccordionContent,
+  AccordionItem,
+  AccordionTrigger,
+  Badge,
+  Alert,
+  AlertTitle,
+  AlertDescription,
+  Button,
+  Card,
+  Calendar,
+  CardHeader,
+  CardFooter,
+  CardTitle,
+  CardDescription,
+  CardContent,
+  Command,
+  CommandEmpty,
+  CommandGroup,
+  CommandInput,
+  CommandItem,
+  CommandList,
+  CommandSeparator,
+  CommandLoading,
+  Checkbox,
+  Dialog,
+  DialogHeader,
+  DialogPortal,
+  DialogOverlay,
+  DialogTrigger,
+  DialogContent,
+  DialogTitle,
+  DialogDescription,
+  DialogFooter,
+  DialogClose,
+  DropdownMenu,
+  DropdownMenuTrigger,
+  DropdownMenuContent,
+  DropdownMenuItem,
+  DropdownMenuLabel,
+  DropdownMenuSeparator,
+  Input,
+  Label,
+  Popover,
+  PopoverAnchor,
+  PopoverContent,
+  Textarea,
+  PopoverTrigger,
+  ScrollArea,
+  ScrollBar,
+  Skeleton,
+  toast,
+  Table,
+  TableBody,
+  TableCaption,
+  TableCell,
+  TableFooter,
+  TableHead,
+  TableHeader,
+  TableRow,
+  TooltipProvider,
+  Tooltip,
+  TooltipTrigger,
+  TooltipContent,
+  Avatar,
+  AvatarImage,
+  AvatarFallback,
+  cn,
+};
+
+const {
+  AutoTable,
+  AutoForm,
+  AutoSubmit,
+  AutoButton,
+  AutoInput,
+  SubmitResultBanner,
+  SubmitSuccessfulBanner,
+  SubmitErrorBanner,
+  AutoBelongsToInput,
+  AutoHasOneInput,
+  AutoHasManyInput,
+  AutoHasManyThroughInput,
+  AutoRolesInput,
+  AutoEnumInput,
+  AutoJSONInput,
+  AutoDateTimePicker,
+  AutoPasswordInput,
+  AutoBooleanInput,
+  AutoEncryptedStringInput,
+  AutoStringInput,
+  AutoTextAreaInput,
+  AutoNumberInput,
+  AutoIdInput,
+  AutoHiddenInput,
+  AutoHasOneForm,
+  AutoBelongsToForm,
+  AutoHasManyForm,
+  AutoHasManyThroughForm,
+} = makeAutocomponents(elements);
+
+export {
+  AutoBelongsToForm,
+  AutoBelongsToInput,
+  AutoBooleanInput,
+  AutoButton,
+  AutoDateTimePicker,
+  AutoEncryptedStringInput,
+  AutoEnumInput,
+  AutoForm,
+  AutoHasManyForm,
+  AutoHasManyInput, AutoHasManyThroughForm, AutoHasManyThroughInput, AutoHasOneForm,
+  AutoHasOneInput,
+  AutoHiddenInput,
+  AutoIdInput,
+  AutoInput,
+  AutoJSONInput,
+  AutoNumberInput,
+  AutoPasswordInput,
+  AutoRolesInput,
+  AutoStringInput,
+  AutoSubmit,
+  AutoTable,
+  AutoTextAreaInput,
+  SubmitErrorBanner,
+  SubmitResultBanner,
+  SubmitSuccessfulBanner
+};
